@@ -7,7 +7,7 @@
 	<div class="container">
         <div class="row">
 			<div class="card-body">
-                 <h1 class="mt-3">Daftar Mahasiswa Yang Mengambil Mata Kuliah tertentu</h1>
+                 <h1 class="mt-3">Daftar KRS</h1>
 				 <a href="{{url('/krs/create')}}" class="btn btn-primary my-3">Tambah Data KRS</a>
 				 <table class="table">
                         <thead class="table-dark">
