@@ -20,6 +20,7 @@
                                     <option value="Aljaber Linier dan Matrix">Aljaber Linier dan Matrix</option>
                                     <option value="Metode Numerik">Metode Numerik</option>
                                     <option value="Statistik">Statistik</option>
+                                    <option value="Struktur Data">Struktur Data</option>
                                 </select>
                                 @error('nama_mk')
                             <div class="invalid-feedback">{{ $message }}</div>
