@@ -14,7 +14,7 @@
                     </div>
                     @endif
                     <table class="table">
-                        <thead class="table-dark">
+                        <thead class="table-warning">
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">Nama Mata Kuliah</th>
