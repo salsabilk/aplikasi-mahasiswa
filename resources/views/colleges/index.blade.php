@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-10">
-                    <h1 class="mt-3">Daftar Mahasiswa</h1>
+                    <h3 class="mt-3">Daftar College</h3>
                     <a href="{{url('/colleges/create')}}" class="btn btn-primary my-3">Tambah Data Mahasiswa</a>
                     @if (session('status'))
                     <div class="alert alert-success">
