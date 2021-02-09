@@ -42,9 +42,9 @@
                             <label for="jurusan">Jurusan</label>
                             <select class="form-select @error('jurusan') is-invalid @enderror" id="jurusan" name="jurusan">
                                     <option selected>{{ $college->jurusan }}</option>
-                                    <option value="Teknik Elektro">Teknik Elektro</option>
+                                    <option value="Perbankan">Perbankan</option>
                                     <option value="Teknik Mesin">Teknik Mesin</option>
-                                    <option value="Teknik Kimia">Teknik Kimia</option>
+                                    <option value="Psikologi">Psikologi</option>
                                     <option value="Teknik Industri">Teknik Industri</option>
                                     <option value="Teknik Sipil">Teknik Sipil</option>
                                     <option value="Teknik Informatika">Teknik Informatika</option> 
@@ -53,7 +53,7 @@
                             <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
                         </div>
-                        <button type="submit" class="btn btn-primary mt-3">Ubah Data</button>
+                        <button type="submit" class="btn btn-warning mt-3">Ubah Data</button>
                     </form>
                 </div>
             </div>

@@ -41,9 +41,9 @@
                         <label for="jurusan">Jurusan</label>
                         <select class="form-select @error('jurusan') is-invalid @enderror"  id="jurusan" name="jurusan">
                             <option selected>Piih Jurusan</option>
-                            <option value="Teknik Elektro">Teknik Elektro</option>
+                            <option value="Perbankan">Perbankan</option>
                             <option value="Teknik Mesin">Teknik Mesin</option>
-                            <option value="Teknik Kimia">Teknik Kimia</option>
+                            <option value="Psikologi">Psikologi</option>
                             <option value="Teknik Industri">Teknik Industri</option>
                             <option value="Teknik Sipil">Teknik Sipil</option>
                             <option value="Teknik Informatika">Teknik Informatika</option>
@@ -53,7 +53,7 @@
                             @enderror
                         </select>
                         <div>
-                        <button type="submit" class="btn btn-primary mt-2">Tambah Data</button>
+                        <button type="submit" class="btn btn-warning mt-2">Tambah Data</button>
                     </form>
                 </div>
             </div>
