@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Krs extends Model
 {
-    // protected $table = 'krs';
-    // protected $primaryKey = 'id';
+    protected $table = 'krs';
+    protected $primaryKey = 'id';
 
     protected $fillable = ['colleges_id', 'lessons_id'];
-
+ 
 }
