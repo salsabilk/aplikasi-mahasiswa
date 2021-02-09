@@ -1,8 +1,9 @@
 @extends('layout.main')
 
-@section('title', 'Daftar Mahasiswa')
+@section('title', 'Daftar KRS')
 
 @section('container')
+<link rel="stylesheet" type="text/css" href="{{ asset('/css/background.css') }}">
  
 	<div class="container">
         <div class="row">
